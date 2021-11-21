@@ -7,7 +7,7 @@ with open("order.json", "r") as read_file:
 with open("payment.json", "r") as read_file2:
     data2 = json.load(read_file2)
 
-app = FastAPI()
+app = Pembayaran API()
 @app.get('/')
 def root():
     return{'Order':'Item'}
